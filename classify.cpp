@@ -117,6 +117,20 @@ void make_map()
     }
 }
 
+string allletters="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+int isletter(char ele)
+{
+    int i;
+    int limit = allletters.SZ();
+    fl(i,0,limit)
+    {
+        if(ele == allletters[i])
+            return 1;
+    }
+    return 0;
+}
+
 
 int main()
 {
@@ -124,8 +138,17 @@ int main()
     make_map();
     make_map_2();
     string str1;
+    int i;
     while(cin>>str1)
     {
+        int inlimit = str1.SZ();
+        fl(i,0,inlimit)
+        {
+            if(isletter(str1[i]))
+            {
+                str1[i]=(char)(int(str1[i])+32);
+            }
+        }
         if(spam_token[str1]>0)
             spamcount++;
         if(nonspam_token[str1]>0)

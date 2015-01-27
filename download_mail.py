@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import sys
 import imaplib
 import getpass
@@ -95,7 +96,7 @@ def main():
     print("#                                                                         #")
     print("#                                                                         #")
     print("#                                                                         #")
-    print("#                   Welcome to the SPCF :V-1.0.0                          #")
+    print("#                   Welcome to the SPCF :V-1.0.1                          #")
     print("#                         Spam Classifier                                 #")
     print("#                     By - Asim Krishna Prasad                            #")
     print("#                    http://github.com/pakhandi                           #")
@@ -116,6 +117,12 @@ def main():
         rv, data = M.login(EMAIL_ACCOUNT,EMAIL_PASS)
     except imaplib.IMAP4.error:
         print "LOGIN FAILED!!! "
+        detach_dir="."
+        filename = "failure.txt"
+        att_path1 = os.path.join(detach_dir,filename)
+        fptemp = open(att_path1, 'wb')
+        fptemp.write("ABORT")
+        fptemp.close()
         sys.exit(1)
 
     print rv, data

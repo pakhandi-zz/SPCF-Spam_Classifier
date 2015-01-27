@@ -16,8 +16,10 @@ do
 	echo "Processing .. .."
 	if [ $a -gt $b ]:
 	then
+		./extract_words < $filename >> "spam_dict.txt"
 		cp $filename "SPAM_MAILS"
 	else
+		./extract_words < $filename >> "nonspam_dict.txt"
 		cp $filename "NONSPAM_MAILS"
 	fi
 	rm "classified.txt"
@@ -25,7 +27,8 @@ do
 done
 
 echo "Cleaning up"
-
+mv "spam_dict.txt" "../../"
+mv "nonspam_dict.txt" "../../"
 rm "SPAM_MAILS/spam_dict.txt"
 rm "NONSPAM_MAILS/nonspam_dict.txt"
 rm "listfiles.txt"
