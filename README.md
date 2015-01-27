@@ -5,7 +5,9 @@ The application is designed to be controlled by terminal..<br>
 This application takes the Gmail username and password and then downloads all the mails of a particular Gmail folder 
 as desired by the user and then classifies the mails as Spam or Not-Spam based on the dictionaries it has.
 <br>
-The dictionaries are made dynamic in V-1.0.1. So, now the dictionaries get automatically updated when new mails are processed..
+The dictionaries are made dynamic in V-2.0.0. So, now the dictionaries get automatically updated when new mails are processed..
+<br>
+Also <a href="http://bugecode.com/post.php?pid=113" target="_blank">here</a> you can find other details about the application..
 <br>
 <h3>Requisites</h3>
 <ul>
@@ -31,5 +33,5 @@ For now, the application does the following : <br>
 <h3>Testing</h3>
 The program has been tested on Ubuntu 14.04 Trusty
 <h3>Usage</h3>
-<a href="https://www.youtube.com/watch?v=wAHLJGmcemI&feature=youtu.be" target="_blank">This is a video</a> showing how to use V-1.0.0
+<a href="https://www.youtube.com/watch?v=-M0ZsDVX0K0" target="_blank">This is a video</a> showing how to use V-1.0.0
 
