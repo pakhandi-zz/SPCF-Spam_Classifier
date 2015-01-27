@@ -33,5 +33,5 @@ For now, the application does the following : <br>
 <h3>Testing</h3>
 The program has been tested on Ubuntu 14.04 Trusty
 <h3>Usage</h3>
-<a href="https://www.youtube.com/watch?v=-M0ZsDVX0K0" target="_blank">This is a video</a> showing how to use V-1.0.0
+<a href="https://www.youtube.com/watch?v=-M0ZsDVX0K0" target="_blank">This is a video</a> showing how to use V-2.0.0
 
