@@ -5,7 +5,7 @@ The application is designed to be controlled by terminal..<br>
 This application takes the Gmail username and password and then downloads all the mails of a particular Gmail folder 
 as desired by the user and then classifies the mails as Spam or Not-Spam based on the dictionaries it has.
 <br>
-The dictionaries are static for now and we are working to make it dynamic based on the mails that arrive..
+The dictionaries are made dynamic in V-1.0.1. So, now the dictionaries get automatically updated when new mails are processed..
 <br>
 <h3>Requisites</h3>
 <ul>
