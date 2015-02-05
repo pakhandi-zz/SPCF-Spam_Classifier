@@ -1,4 +1,4 @@
-# SPCF-Spam_Classifier : UNDER DEVELOPMENT
+# SPCF-Spam_Classifier
 A Basic Spam Classifier for LINUX 64-bit system
 
 The application is designed to be controlled by terminal..<br>
